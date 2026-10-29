@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "Radar Auto Medellín",
+  "short_name": "Radar Auto",
+  "description": "Promociones de vehículos en Medellín y simulación financiera con retoma de Nissan Kicks 2020.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#102a38",
+  "theme_color": "#102a38",
+  "lang": "es-CO",
+  "categories": [
+    "finance",
+    "shopping",
+    "business"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

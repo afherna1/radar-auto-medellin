@@ -1,0 +1,68 @@
+name: Radar Auto — rastrear y publicar app iPhone
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Lunes a sábado, 07:10 y 17:10, hora Colombia (UTC-5, sin DST).
+    - cron: '10 12,22 * * 1-6'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+concurrency:
+  group: radar-medellin-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+      - name: Revisar ofertas públicas automáticamente
+        if: github.event_name != 'push'
+        run: python monitor.py
+      - name: Verificar calidad técnica
+        run: python -m unittest tests.py -v
+      - name: Reconstruir catálogo visible
+        run: python build.py
+      - name: Guardar historial de rastreos
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html data/ofertas_detectadas.json data/historial_cambios.json data/monitor_status.json data/ULTIMOS_CAMBIOS.md
+          if ! git diff --cached --quiet; then
+            git commit -m "radar: actualizar promociones y app"
+            git push
+          fi
+      - name: Preparar los archivos de la app pública
+        run: |
+          mkdir -p .publish/icons .publish/data
+          cp index.html manifest.webmanifest sw.js .publish/
+          cp icons/*.png .publish/icons/
+          cp data/monitor_status.json .publish/data/
+          touch .publish/.nojekyll
+      - uses: actions/configure-pages@v5
+      - name: Empaquetar app para GitHub Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .publish
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar app para iPhone
+        id: deployment
+        uses: actions/deploy-pages@v4

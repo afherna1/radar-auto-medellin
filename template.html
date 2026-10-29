@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Radar Auto · Ofertas de carros en Medellín</title>
+<meta name="description" content="Encuentra promociones de carros, compáralas y simula el cambio entregando tu Nissan Kicks 2020.">
+<meta name="theme-color" content="#112c35">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Radar Auto">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<style>__CSS__</style>
+</head>
+<body>
+<div class="app-shell">
+ <header class="app-header">
+  <a class="brand-lockup" href="#inicio" data-tab-link="inicio" aria-label="Volver al inicio"><span class="brand-icon" aria-hidden="true">R<span>·</span></span><span><strong>radar<span class="brand-light">auto</span></strong><small>MEDELLÍN Y ALREDEDORES</small></span></a>
+  <div class="header-actions"><span id="netPill" class="net-pill" role="status">Datos locales</span><button class="icon-button" id="refreshBtn" type="button" title="Buscar versión publicada más reciente" aria-label="Actualizar catálogo">↻</button><button class="icon-button" data-switch="radar" type="button" title="Monitoreo y fuentes" aria-label="Monitoreo y fuentes">ⓘ</button></div>
+ </header>
+ <nav class="desktop-nav" aria-label="Navegación principal">
+  <button class="nav-item active" data-switch="inicio" type="button">Inicio</button>
+  <button class="nav-item" data-switch="ofertas" type="button">Explorar ofertas</button>
+  <button class="nav-item" data-switch="comparar" type="button">Comparar <span class="compare-number" data-compare-count>0</span></button>
+  <button class="nav-item" data-switch="plan" type="button">Mi plan financiero</button>
+  <button class="nav-item" data-switch="radar" type="button">Seguimiento</button>
+ </nav>
+ <main id="mainContent" tabindex="-1">
+  <section class="screen" data-screen="inicio" aria-labelledby="homeTitle">
+   <div class="home-intro"><div class="intro-copy"><span class="eyebrow"><span class="live-dot"></span> TU RADAR DE OPORTUNIDADES</span><h1 id="homeTitle">Tu próximo carro.<br><em>Una mejor decisión.</em></h1><p>Ofertas de Medellín y alrededores, comparadas con lo que puedes recibir por tu Nissan Kicks.</p><button class="text-action" data-switch="radar" type="button">Ver fecha y estado de los datos <span aria-hidden="true">↗</span></button></div><div class="profile-summary"><span class="profile-label">TU PUNTO DE PARTIDA</span><div class="profile-car"><span class="car-avatar" aria-hidden="true">↗</span><div><strong>Nissan Kicks <span>2020</span></strong><small>Parte de pago · valor estimado</small></div></div><div class="profile-values"><div><small>Retoma estimada</small><strong id="homeTrade">$58 M</strong></div><div><small>Cuota objetivo máxima</small><strong id="homeBudget">$2,5 M</strong></div></div><button class="profile-edit" data-switch="plan" type="button">Ajustar mi presupuesto <span>→</span></button></div></div>
+   <div class="status-strip" id="statusStrip"><span class="status-indicator"></span><span id="statusLine">Catálogo de referencia disponible. Rastreo aún no activado.</span><button data-switch="radar" type="button">Detalles ↗</button></div>
+   <div class="section-heading"><div><span class="overline">SELECCIÓN PARA TU ESCENARIO</span><h2>Empieza por aquí</h2><p>Ordenadas por las condiciones publicadas y una simulación con tu retoma.</p></div><button class="small-link" data-switch="ofertas" type="button">Ver todas las ofertas →</button></div>
+   <div class="feature-grid" id="featuredGrid"></div>
+   <div class="explain-row"><span class="explain-symbol">%</span><div><strong>El 0 % no siempre es durante todo el crédito.</strong><p>La app separa tasa 0 % completa, tasa temporal y anuncios que necesitan verificación.</p></div><button data-switch="ofertas" data-filter-shortcut="full" type="button">Explorar 0 % →</button></div>
+   <div class="mini-stats"><div><span id="totalOffers">—</span><small>Promociones en catálogo</small></div><div><span id="totalZero">—</span><small>Con 0 % publicado</small></div><div><span id="totalDealers">—</span><small>Puntos comerciales</small></div></div>
+  </section>
+  <section class="screen hidden" data-screen="ofertas" aria-labelledby="offersTitle">
+   <div class="page-title"><div><span class="overline">BUSCA Y COMPARA SIN COTIZACIONES</span><h1 id="offersTitle">Explorar ofertas</h1><p>Precio, condiciones, cuota estimada y fuente en un mismo lugar.</p></div><button id="exportOffers" class="quiet-btn" type="button">↓ Exportar</button></div>
+   <div class="search-box"><span aria-hidden="true">⌕</span><input type="search" id="searchBox" placeholder="Buscar marca, modelo o beneficio" aria-label="Buscar ofertas" autocomplete="off"><button id="clearSearch" type="button" title="Borrar búsqueda" aria-label="Borrar búsqueda">×</button></div>
+   <div class="chip-scroller" aria-label="Filtros rápidos" id="filterChips"><button class="filter-chip active" data-chip="all" aria-pressed="true" type="button">Todas</button><button class="filter-chip" data-chip="full" aria-pressed="false" type="button">0 % plazo completo</button><button class="filter-chip" data-chip="intro" aria-pressed="false" type="button">0 % inicial</button><button class="filter-chip" data-chip="electric" aria-pressed="false" type="button">Eléctricos e híbridos</button><button class="filter-chip" data-chip="saved" aria-pressed="false" type="button">♡ Guardadas</button></div>
+   <div class="filter-bar"><label>Marca<select id="brandFilter"><option value="">Todas las marcas</option></select></label><label>Ordenar por<select id="sortFilter"><option value="smart">Más relevantes</option><option value="payment">Menor cuota estimada</option><option value="price">Menor precio</option><option value="soon">Próximo vencimiento</option></select></label><label class="switch-label"><input type="checkbox" id="includeExpired"> Incluir vencidas</label><button type="button" class="reset-btn" id="resetFilters">Limpiar filtros</button></div>
+   <div class="list-meta"><span id="resultsCount">— resultados</span><span>Cuotas estimadas, no aprobadas</span></div>
+   <div id="offersGrid" class="offers-grid"></div>
+  </section>
+  <section class="screen hidden" data-screen="comparar" aria-labelledby="compareTitle">
+   <div class="page-title"><div><span class="overline">LADO A LADO</span><h1 id="compareTitle">Comparar vehículos</h1><p>Guarda hasta tres opciones para ver cuál se ajusta a tu plan.</p></div><button class="quiet-btn" id="clearCompare" type="button">Vaciar selección</button></div>
+   <div class="compare-layout" id="compareContent"></div>
+  </section>
+  <section class="screen hidden" data-screen="plan" aria-labelledby="planTitle">
+   <div class="page-title"><div><span class="overline">PERSONALIZA UNA SOLA VEZ</span><h1 id="planTitle">Mi plan financiero</h1><p>Modifica tu escenario. La app recalcula las oportunidades automáticamente.</p></div><button id="resetPlan" class="quiet-btn" type="button">Reiniciar</button></div>
+   <div class="plan-grid"><form id="profileForm" class="editor-card">
+    <div class="form-header"><span class="form-icon">01</span><div><h2>Mi Nissan Kicks 2020</h2><p>Son estimaciones modificables, no avalúos.</p></div></div>
+    <div class="form-fields two-fields"><label>Retoma del concesionario <small>Millones COP</small><div class="number-wrap"><span>$</span><input id="inputTrade" type="number" min="0" max="1000" step="0.5" inputmode="decimal"><b>M</b></div></label><label>Venta particular estimada <small>Millones COP</small><div class="number-wrap"><span>$</span><input id="inputSale" type="number" min="0" max="1000" step="0.5" inputmode="decimal"><b>M</b></div></label></div>
+    <div class="form-separator"></div><div class="form-header"><span class="form-icon">02</span><div><h2>Cómo quiero pagar</h2><p>Valores que usaremos al comparar.</p></div></div>
+    <div class="form-fields two-fields"><label>Efectivo adicional <small>Millones COP</small><div class="number-wrap"><span>$</span><input id="inputCash" type="number" min="0" max="1000" step="0.5" inputmode="decimal"><b>M</b></div></label><label>Cuota máxima que prefiero <small>Millones COP/mes</small><div class="number-wrap"><span>$</span><input id="inputTarget" type="number" min="0.1" max="100" step="0.1" inputmode="decimal"><b>M</b></div></label><label>Plazo deseado<select id="inputMonths"><option value="12">12 meses</option><option value="24">24 meses</option><option value="36">36 meses</option><option value="48">48 meses</option><option value="60">60 meses</option><option value="72">72 meses</option></select></label><label>Tasa mensual si falta confirmar <small>Hipótesis, no oferta</small><div class="number-wrap"><input id="inputRate" type="number" min="0" max="5" step="0.05" inputmode="decimal"><b>% M.V.</b></div></label><label>Seguros y gastos al mes <small>Millones COP</small><div class="number-wrap"><span>$</span><input id="inputInsurance" type="number" min="0" max="100" step="0.01" inputmode="decimal"><b>M</b></div></label><label>Gastos iniciales <small>Millones COP</small><div class="number-wrap"><span>$</span><input id="inputFees" type="number" min="0" max="100" step="0.1" inputmode="decimal"><b>M</b></div></label></div>
+    <p class="privacy-note">✓ Tus datos se guardan únicamente en este dispositivo. No necesitas cargar cotizaciones.</p>
+   </form><div class="plan-sidebar"><div class="editor-card plan-result"><span class="overline">SIMULACIÓN DE TU CAMBIO</span><label class="plan-offer-label">Vehículo a simular<select id="planSelectedOffer" aria-label="Vehículo a simular"></select></label><div class="price-large" id="planMonthly">—</div><p id="planMonthlyNote">Cuota mensual estimada</p><div id="planScenario" class="summary-list"></div><p class="privacy-note">La financiación y la retoma siempre deben confirmarse con el concesionario.</p><button class="primary-btn full" data-switch="ofertas" type="button">Explorar otras promociones →</button></div><div class="education-card"><strong>¿Qué significa la cuota estimada?</strong><p>Se calcula sobre precio publicado, retoma y efectivo. Si faltan las condiciones del crédito, se usa tu tasa hipotética; no equivale a una aprobación ni incluye costos no introducidos.</p></div></div></div>
+  </section>
+  <section class="screen hidden" data-screen="radar" aria-labelledby="radarTitle">
+   <div class="page-title"><div><span class="overline">TRANSPARENCIA DE DATOS</span><h1 id="radarTitle">Radar y fuentes</h1><p>Qué se rastrea, cuándo se revisó y de dónde salió cada dato.</p></div><button class="quiet-btn" id="radarRefresh" type="button">↻ Actualizar</button></div>
+   <div id="radarStatus" class="radar-banner"></div>
+   <div class="radar-grid"><div class="editor-card"><h2>Actividad del rastreador</h2><div id="monitorChecks"></div><details class="detail-box"><summary>Cómo instalar la app en tu iPhone</summary><p>Una vez publicada en HTTPS, abre la dirección en Safari, pulsa Compartir → Agregar a Inicio y activa «Abrir como app web». No es instalable desde un archivo local.</p></details><details class="detail-box"><summary>Cómo interpretar las promociones</summary><p>Una tasa promocional durante seis meses no implica 0 % durante todo el crédito. Las tasas «desde», bonos e inventario deben confirmarse con la marca y el concesionario.</p></details></div><div class="editor-card"><h2>Fuentes comerciales</h2><p class="muted">Enlaces externos a publicaciones que el proyecto consulta.</p><div id="sourceLinks" class="source-links"></div><button class="quiet-btn" type="button" id="quoteOpen">+ Añadir una cotización propia (opcional)</button></div></div>
+   <div class="section-heading dealer-heading"><div><span class="overline">RED DE CONCESIONARIOS</span><h2>¿Dónde cotizar?</h2><p>Ubicaciones para consultar disponibilidad y retoma de tu vehículo.</p></div><label>Marca <select id="dealerFilter"><option value="">Todas</option></select></label></div><div class="dealers-grid" id="dealerList"></div>
+   <details class="legal-notice"><summary>Limitaciones y condiciones de uso</summary><p>Es un proyecto de investigación comercial independiente. El catálogo inicial contiene referencias publicadas, no cotizaciones personalizadas; las campañas nacionales no garantizan disponibilidad local. El rastreo solo se actualiza automáticamente cuando el proyecto está desplegado con la programación activa. Ninguna cuota mostrada constituye una aprobación bancaria ni incluye cargos desconocidos.</p></details>
+  </section>
+ </main>
+ <footer class="site-footer">Radar Auto · Investigación comercial independiente · Colombia · <span id="footerData">Datos sujetos a validación</span></footer>
+</div>
+<nav class="mobile-nav" aria-label="Menú principal"><button data-switch="inicio" class="active" type="button"><span aria-hidden="true">⌂</span><small>Inicio</small></button><button data-switch="ofertas" type="button"><span aria-hidden="true">⌕</span><small>Ofertas</small></button><button data-switch="comparar" class="compare-tab" type="button"><span aria-hidden="true">▤<i data-compare-count>0</i></span><small>Comparar</small></button><button data-switch="plan" type="button"><span aria-hidden="true">◫</span><small>Mi plan</small></button><button data-switch="radar" type="button"><span aria-hidden="true">◎</span><small>Radar</small></button></nav>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="sheet-overlay hidden" id="detailOverlay" role="presentation"><section class="detail-sheet" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><div class="sheet-handle"></div><div class="sheet-header"><span class="overline" id="detailBrand"></span><button id="detailClose" class="icon-button" type="button" aria-label="Cerrar detalle">×</button></div><div id="detailBody"></div></section></div>
+<div class="sheet-overlay hidden" id="quoteOverlay"><section class="detail-sheet" role="dialog" aria-modal="true" aria-labelledby="quoteTitle"><div class="sheet-handle"></div><div class="sheet-header"><h2 id="quoteTitle">Cotización adicional</h2><button class="icon-button" id="quoteClose" type="button" aria-label="Cerrar">×</button></div><p class="muted">Opcional. El rastreador funciona sin subir ningún documento.</p><form id="quoteForm" class="form-fields quote-form"><label>Marca<input name="brand" required placeholder="Ej. Mazda"></label><label>Modelo<input name="model" required placeholder="Ej. CX-30 Touring"></label><label>Precio (millones COP)<input name="price" required type="number" min="1" step="0.01"></label><label>Beneficio o notas<input name="terms" placeholder="Ej. tasa 0 % hasta 24 meses"></label><label>URL de la oferta (opcional)<input name="source" type="url" placeholder="https://..."></label><button class="primary-btn full" type="submit">Guardar cotización</button></form></section></div>
+<script type="application/json" id="seed">__SEED__</script>
+<script>__JS__</script>
+</body></html>
