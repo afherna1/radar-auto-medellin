@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Kia — índice mensual de campañas",
+    "brand": "Kia",
+    "kind": "kia",
+    "url": "https://kia.com.co/noticias"
+  },
+  {
+    "name": "GM Financial — promociones y condiciones",
+    "brand": "Chevrolet",
+    "kind": "gm",
+    "url": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html",
+    "legal_urls": {
+      "sonic": "https://www.gmfinancial.com.co/es-co/inicio/promociones/terminos-y-condiciones1.html",
+      "full36": "https://www.gmfinancial.com.co/es-co/inicio/promociones/terminos-y-condiciones-.html"
+    }
+  },
+  {
+    "name": "Chevrolet — oportunidades",
+    "brand": "Chevrolet",
+    "kind": "generic",
+    "url": "https://www.chevrolet.com.co/ofertas-oportunidades"
+  },
+  {
+    "name": "Nissan — beneficios nacionales",
+    "brand": "Nissan",
+    "kind": "monthly",
+    "url": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-{month}-{year}.html"
+  },
+  {
+    "name": "Renault — legales oficiales",
+    "brand": "Renault",
+    "kind": "generic",
+    "url": "https://www.renault.com.co/legales.html"
+  },
+  {
+    "name": "Geely — términos y condiciones",
+    "brand": "Geely",
+    "kind": "generic",
+    "url": "https://geely.com.co/terminos-y-condiciones/"
+  },
+  {
+    "name": "Suzuki — términos comerciales",
+    "brand": "Suzuki",
+    "kind": "generic",
+    "url": "https://www.suzukiautos.com.co/info/terminos-y-condiciones"
+  },
+  {
+    "name": "Kia Autoland — condiciones concesionario Medellín",
+    "brand": "Kia Autoland",
+    "kind": "generic",
+    "url": "https://kia.autoland.com.co/terminos-y-condiciones"
+  },
+  {
+    "name": "Kia Armotor — campañas",
+    "brand": "Kia Armotor",
+    "kind": "monthly",
+    "url": "https://armotorkia.com/noticias/legales-campanas-{month}-{year}"
+  },
+  {
+    "name": "BYD Moevo — sedes y campañas",
+    "brand": "BYD",
+    "kind": "generic",
+    "url": "https://moevo.co/ubicanos/"
+  },
+  {
+    "name": "Tesla — Model Y y financiación",
+    "brand": "Tesla",
+    "kind": "generic",
+    "url": "https://www.tesla.com/es_co/modely/design?financeModalTab=finance_options&modal=finance"
+  },
+  {
+    "name": "Renault Caribe Motor Medellín — ofertas nuevos",
+    "brand": "Renault Caribe Motor",
+    "kind": "generic",
+    "url": "https://www.caribemotor.com.co/ofertas/ofertas-vehiculos-nuevos/"
+  },
+  {
+    "name": "Renault Casa Británica — promociones",
+    "brand": "Renault Casa Británica",
+    "kind": "generic",
+    "url": "https://casabritanica.com.co/promociones"
+  },
+  {
+    "name": "Chevrolet Sonic — precio publicado",
+    "brand": "Chevrolet",
+    "kind": "price",
+    "url": "https://www.chevrolet.com.co/camionetas/sonic",
+    "model": "Sonic 2027"
+  }
+]

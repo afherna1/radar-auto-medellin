@@ -1,0 +1,598 @@
+{
+  "updated_at": "2026-10-27",
+  "disclaimer": "Investigación pública de octubre 2026. No hay confirmación de inventario, cotización individual o aprobación financiera. Precios 'desde' son referenciales; no descontar bonos dos veces.",
+  "offers": [
+    {
+      "id": "tesla-model-y",
+      "brand": "Tesla",
+      "model": "Model Y Premium Rear-Wheel Drive",
+      "type": "SUV",
+      "fuel": "Eléctrico",
+      "price": 120.99,
+      "price_status": "vigente",
+      "benefit": "0 % E.A. hasta 36 meses sobre el saldo financiado",
+      "scheme": "full_zero",
+      "intro_months": 0,
+      "intro_rate": 0,
+      "after_rate": 0,
+      "max_months": 36,
+      "min_down_pct": 50,
+      "valid_until": "2026-12-31",
+      "bonus": 0,
+      "terms": "Santander: cuota inicial mínima 50 %, hasta 36 meses a tasa fija 0 % E.A., pedidos desde 22/10 hasta 31/12/2026, entrega antes del 31/12/2026. Precio $120,99 M de configurador Tesla, incluye transporte y registro. Otros cargos y seguros no incluidos en cuota. Aceptación de Nissan Kicks como parte de pago NO verificada.",
+      "source": "https://www.tesla.com/es_co/modely/design?financeModalTab=finance_options&modal=finance",
+      "verified": "Financiación oficial publicada; evaluación de crédito y disponibilidad requeridas."
+    },
+    {
+      "id": "tesla-model-3",
+      "brand": "Tesla",
+      "model": "Model 3 Premium tracción trasera",
+      "type": "Sedán",
+      "fuel": "Eléctrico",
+      "price": 114.99,
+      "price_status": "referencia_vencida",
+      "benefit": "0 % E.A. hasta 36 meses (precio anterior por confirmar)",
+      "scheme": "full_zero",
+      "intro_months": 0,
+      "intro_rate": 0,
+      "after_rate": 0,
+      "max_months": 36,
+      "min_down_pct": 50,
+      "valid_until": "2026-12-31",
+      "bonus": 0,
+      "terms": "Campaña de Santander 0 % EA hasta 36 meses, cuota inicial >= 50 %, para Model 3 y Model Y; pedidos y entrega antes 31/12/2026. El precio desde $114,99 M es un dato de lista comprobado por tercero en septiembre 2026, NO precio Tesla octubre verificado. Confirmar configuración y precio final. Retoma directa Kicks NO confirmada.",
+      "source": "https://www.tesla.com/es_co/model3/design",
+      "price_source": "https://autoselectricos.com/co/carros/tesla-model-3/",
+      "verified": "Interés 0 % vigente; precio referencial histórico."
+    },
+    {
+      "id": "byd-yuan-plus",
+      "brand": "BYD",
+      "model": "Yuan Plus (versión por cotizar)",
+      "type": "SUV",
+      "fuel": "Eléctrico",
+      "price": null,
+      "price_status": "sin_cotizar",
+      "benefit": "Moevo Medellín y Marautos anuncian desde 0 % hasta 36 meses; solicitar T&C",
+      "scheme": "unverified_zero",
+      "intro_months": 0,
+      "intro_rate": 0,
+      "after_rate": null,
+      "max_months": 36,
+      "min_down_pct": 50,
+      "valid_until": null,
+      "bonus": 0,
+      "terms": "Promoción divulgada por medios el 27/oct/2026 para distribuidores específicos: 50 % inicial, hasta 36 meses, Banco Finandina en comunicado de Marautos. No hay documento de condiciones contractual completo ni vigencia verificable: NO asumir tasa 0% aprobada ni mes de vencimiento. Precio solo en cotización.",
+      "source": "https://www.elcolombiano.com/negocios/byd-y-tesla-bajan-tasas-de-interes-en-que-carros-HN42830676",
+      "verified": "Oferta local reportada; documentación oficial de la promoción no verificada."
+    },
+    {
+      "id": "kia-k3-cross",
+      "brand": "Kia",
+      "model": "K3 Cross Vibrant MT 2027",
+      "type": "Crossover",
+      "fuel": "Gasolina",
+      "price": 78.99,
+      "price_status": "vigente",
+      "benefit": "Tasa desde 0 % M.V. durante 6 meses",
+      "scheme": "intro",
+      "intro_months": 6,
+      "intro_rate": 0,
+      "after_rate": null,
+      "min_down_pct": 30,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "bonus_note": "No se reportó bono de precio en esta referencia.",
+      "terms": "Cuota inicial desde el 30 %, perfil hasta AA, plazo hasta 72 meses sin residual; desde mes 7 tasa vigente, no publicada en la campaña. Seguros no incluidos.",
+      "source": "https://kia.com.co/noticias/legales-campanas-octubre-2026",
+      "verified": "Términos nacionales vigentes; aplicación y disponibilidad local por confirmar."
+    },
+    {
+      "id": "kia-k3-sedan",
+      "brand": "Kia",
+      "model": "K3 Sedán Desire MT 2027",
+      "type": "Sedán",
+      "fuel": "Gasolina",
+      "price": 72.99,
+      "price_status": "vigente",
+      "benefit": "Tasa desde 0 % M.V. durante 6 meses",
+      "scheme": "intro",
+      "intro_months": 6,
+      "intro_rate": 0,
+      "after_rate": null,
+      "min_down_pct": 30,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "Cuota inicial desde 30 %, plazo hasta 72 meses; tasa posterior no indicada y seguros adicionales.",
+      "source": "https://kia.com.co/noticias/legales-campanas-octubre-2026",
+      "verified": "Campaña nacional; validar concesionario."
+    },
+    {
+      "id": "kia-ev5",
+      "brand": "Kia",
+      "model": "EV5 Light 2027",
+      "type": "SUV",
+      "fuel": "Eléctrico",
+      "price": 139.99,
+      "price_status": "vigente",
+      "benefit": "Tasa desde 0 % M.V. durante 6 meses",
+      "scheme": "intro",
+      "intro_months": 6,
+      "intro_rate": 0,
+      "after_rate": null,
+      "min_down_pct": 30,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "Promoción Finandina desde 0 % 6 meses; después tasa vigente no especificada; no equivale a 0 % todo el crédito.",
+      "source": "https://kia.com.co/noticias/legales-campanas-octubre-2026",
+      "verified": "Campaña nacional; confirmar versión e inventario."
+    },
+    {
+      "id": "kia-sonet",
+      "brand": "Kia",
+      "model": "Sonet Vibrant MT 2027",
+      "type": "SUV",
+      "fuel": "Gasolina",
+      "price": 88.99,
+      "price_status": "vigente",
+      "benefit": "Bono matrícula anunciado de $1 millón; tasa 0 % no verificada",
+      "scheme": "standard",
+      "intro_months": 0,
+      "intro_rate": null,
+      "after_rate": null,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 1,
+      "bonus_note": "Bono de matrícula, NO aplicarlo como descuento al precio del vehículo.",
+      "terms": "Bono matrícula de 1 millón para todas las versiones, sujeto a condiciones. Sin financiación 0 % publicada para esta versión.",
+      "source": "https://kia.com.co/noticias/legales-campanas-octubre-2026",
+      "verified": "Campaña nacional; verificar condición del bono."
+    },
+    {
+      "id": "kia-sportage",
+      "brand": "Kia",
+      "model": "Sportage Desire gasolina 2027",
+      "type": "SUV",
+      "fuel": "Gasolina",
+      "price": 125.99,
+      "price_status": "vigente",
+      "benefit": "Tasa especial desde 0,70 % M.V. por 6 meses; después otra tasa",
+      "scheme": "intro",
+      "intro_months": 6,
+      "intro_rate": 0.7,
+      "after_rate": null,
+      "min_down_pct": 30,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "0,70 % M.V. es tasa promocional, NO 0 %. Exige desde 30 % inicial; tasa posterior por confirmar.",
+      "source": "https://kia.com.co/noticias/legales-campanas-octubre-2026",
+      "verified": "Campaña nacional; se requiere cotización del crédito."
+    },
+    {
+      "id": "geely-ex5-se",
+      "brand": "Geely",
+      "model": "EX5 SE 2027",
+      "type": "SUV",
+      "fuel": "Eléctrico",
+      "price": 89.99,
+      "price_status": "vigente",
+      "benefit": "0 % M.V. los primeros 6 meses; desde 1,45 % M.V. después",
+      "scheme": "intro",
+      "intro_months": 6,
+      "intro_rate": 0,
+      "after_rate": 1.45,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "Financiación hasta 100 %, sujeto a perfil y contratación de seguros con Sufi para acceder a tasa anunciada; cargos mensuales de seguros aparte.",
+      "source": "https://geely.com.co/terminos-y-condiciones/",
+      "verified": "Términos nacionales de octubre publicados."
+    },
+    {
+      "id": "geely-starray",
+      "brand": "Geely",
+      "model": "Starray EM-i Pro 2027",
+      "type": "SUV",
+      "fuel": "Híbrido enchufable",
+      "price": 125.99,
+      "price_status": "vigente",
+      "benefit": "0 % M.V. los primeros 6 meses; desde 1,45 % M.V. después",
+      "scheme": "intro",
+      "intro_months": 6,
+      "intro_rate": 0,
+      "after_rate": 1.45,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "Tasa desde 1,45 % M.V. desde mes 7 con seguros ligados a campaña. Plazo hasta 72 meses sujeto a aprobación.",
+      "source": "https://geely.com.co/terminos-y-condiciones/",
+      "verified": "Promoción nacional vigente por términos publicados."
+    },
+    {
+      "id": "geely-ex2",
+      "brand": "Geely",
+      "model": "EX2 Pro 2027",
+      "type": "Compacto",
+      "fuel": "Eléctrico",
+      "price": 69.99,
+      "price_status": "vigente",
+      "benefit": "Bono de $2 millones; tasa cero no confirmada",
+      "scheme": "standard",
+      "intro_months": 0,
+      "intro_rate": null,
+      "after_rate": null,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 2,
+      "bonus_note": "No restar el bono automáticamente: verificar si el precio de oferta ya lo incluye.",
+      "terms": "Bono de precio válido solo para EX2 Pro, no acumulable con otras promociones.",
+      "source": "https://geely.com.co/terminos-y-condiciones/",
+      "verified": "Oferta nacional; precio neto por confirmar en cotización."
+    },
+    {
+      "id": "nissan-kait",
+      "brand": "Nissan",
+      "model": "Kait Sense 2027",
+      "type": "SUV",
+      "fuel": "Gasolina",
+      "price": 85.99,
+      "price_status": "vigente",
+      "benefit": "Bono anunciado de $2 millones + matrícula/SOAT; sin tasa 0 % verificada",
+      "scheme": "standard",
+      "intro_months": 0,
+      "intro_rate": null,
+      "after_rate": null,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 2,
+      "bonus_note": "Confirmar si el bono ya se refleja en precio desde $85,99 M.",
+      "terms": "Bono de $2 M para Sense, Sense Plus y Advance; matrícula + SOAT según referencias indicadas. No acumulable con otras promociones.",
+      "source": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html",
+      "verified": "Campaña nacional válida a octubre 31."
+    },
+    {
+      "id": "nissan-kicks",
+      "brand": "Nissan",
+      "model": "Kicks Sense CVT 2027",
+      "type": "SUV",
+      "fuel": "Gasolina",
+      "price": 117.99,
+      "price_status": "referencia_vencida",
+      "benefit": "Matrícula y SOAT octubre; precio visible corresponde a septiembre",
+      "scheme": "standard",
+      "intro_months": 0,
+      "intro_rate": null,
+      "after_rate": null,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "El precio de $117,99 M fue publicado con vigencia hasta septiembre 30. El beneficio octubre nacional es matrícula/SOAT. Reconfirmar el precio actual antes de comparar.",
+      "source": "https://www.nissan.com.co/vehiculos/nuevos/kicks.html",
+      "benefit_source": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html",
+      "verified": "Precio no vigente: mostrar solo para referencia y revisión."
+    },
+    {
+      "id": "nissan-qashqai",
+      "brand": "Nissan",
+      "model": "Qashqai e-POWER Advance Plus 2027",
+      "type": "SUV",
+      "fuel": "Híbrido serie",
+      "price": 134.99,
+      "price_status": "vigente",
+      "benefit": "Precio de campaña desde $134,99 M; sin 0 % verificado",
+      "scheme": "standard",
+      "intro_months": 0,
+      "intro_rate": null,
+      "after_rate": null,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "Precio para Advance Plus en campaña octubre; confirmar oferta financiera personalizada.",
+      "source": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html",
+      "verified": "Condición nacional publicada."
+    },
+    {
+      "id": "nissan-xtrail",
+      "brand": "Nissan",
+      "model": "X-Trail e-POWER Sense 2027",
+      "type": "SUV",
+      "fuel": "Híbrido serie",
+      "price": 157.99,
+      "price_status": "vigente",
+      "benefit": "Bono $3 M, matrícula/SOAT y póliza 1 año; sin 0 % verificado",
+      "scheme": "standard",
+      "intro_months": 0,
+      "intro_rate": null,
+      "after_rate": null,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 3,
+      "bonus_note": "No restar bono sin cotización neta; verificar acumulación.",
+      "terms": "Póliza por un año y bonos específicos por versión. Confirmar precio final y compatibilidad.",
+      "source": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html",
+      "verified": "Campaña nacional; cotizar."
+    },
+    {
+      "id": "suzuki-jimny",
+      "brand": "Suzuki",
+      "model": "Jimny 5 puertas GLX MT 2027",
+      "type": "SUV 4x4",
+      "fuel": "Gasolina",
+      "price": 125.99,
+      "price_status": "referencia_vencida",
+      "benefit": "6 meses de gracia a capital e intereses al 0 %; luego intereses",
+      "scheme": "grace",
+      "intro_months": 6,
+      "intro_rate": 0,
+      "after_rate": null,
+      "min_down_pct": 50,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "Plan 0 % Jimny: préstamo máximo 50 %, 6 meses de gracia sin pagar capital ni intereses; seguros iniciales anticipados. Precio $125,99 M corresponde a página con bono hasta sep 30, RECONFIRMAR precio octubre.",
+      "source": "https://www.suzukiautos.com.co/info/terminos-y-condiciones",
+      "price_source": "https://www.suzukiautos.com.co/suzuki-jimny-5-puertas/p",
+      "verified": "Plan octubre vigente; precio anterior pendiente de confirmar."
+    },
+    {
+      "id": "renault-koleos",
+      "brand": "Renault",
+      "model": "Koleos E-Tech (versión por cotizar)",
+      "type": "SUV",
+      "fuel": "Híbrido",
+      "price": null,
+      "price_status": "sin_cotizar",
+      "benefit": "6 meses de gracia total al 0 %; después tasa de crédito",
+      "scheme": "grace",
+      "intro_months": 6,
+      "intro_rate": 0,
+      "after_rate": null,
+      "min_down_pct": 50,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "Cuota inicial superior al 50 %, seis meses sin pagos de capital/intereses; seguros/gastos exigidos. Tasa posterior según perfil, fija o IBR. Precio pendiente de cotizar.",
+      "source": "https://www.renault.com.co/legales.html",
+      "verified": "Campaña nacional; precio y viabilidad pendientes."
+    },
+    {
+      "id": "kia-ev2",
+      "brand": "Kia",
+      "model": "EV2 Air 2027",
+      "type": "SUV compacta",
+      "fuel": "Eléctrico",
+      "price": 89.99,
+      "price_status": "vigente",
+      "benefit": "Precio publicado desde $89,99 M; 0 % no verificado",
+      "scheme": "standard",
+      "intro_months": 0,
+      "intro_rate": null,
+      "after_rate": null,
+      "min_down_pct": 0,
+      "valid_until": "2026-10-31",
+      "bonus": 0,
+      "terms": "No se encontró financiación a 0 % para esta versión en condiciones consultadas.",
+      "source": "https://kia.com.co/noticias/legales-campanas-octubre-2026",
+      "verified": "Precio nacional publicado; local por verificar."
+    }
+  ],
+  "dealers": [
+    {
+      "name": "Tesla Medellín — El Tesoro",
+      "brand": "Tesla",
+      "city": "Medellín",
+      "address": "Carrera 25A #1 Sur-45, C.C. El Tesoro",
+      "map": "https://www.tesla.com/es_es/findus/list/stores/Colombia"
+    },
+    {
+      "name": "BYD Moevo — Rivana",
+      "brand": "BYD",
+      "city": "Medellín",
+      "address": "Carrera 48 #20-49, Edificio Rivana Local 5",
+      "map": "https://moevo.co/ubicanos/"
+    },
+    {
+      "name": "BYD Moevo — Viva Envigado",
+      "brand": "BYD",
+      "city": "Envigado",
+      "address": "Carrera 48 #32B Sur-139, local 350",
+      "map": "https://moevo.co/ubicanos/"
+    },
+    {
+      "name": "BYD Moevo — Los Cristales",
+      "brand": "BYD",
+      "city": "Envigado",
+      "address": "Carrera 43A #23 Sur-36",
+      "map": "https://moevo.co/ubicanos/"
+    },
+    {
+      "name": "BYD Andar — Sabaneta",
+      "brand": "BYD",
+      "city": "Sabaneta",
+      "address": "Calle 60 Sur #44-57",
+      "map": "https://bydauto.com.co/concesionarios/"
+    },
+    {
+      "name": "BYD Moevo — Rionegro",
+      "brand": "BYD",
+      "city": "Rionegro",
+      "address": "Carrera 50 #44A-86",
+      "map": "https://moevo.co/ubicanos/"
+    },
+    {
+      "name": "Kia Distrikia La 10",
+      "brand": "Kia",
+      "city": "Medellín",
+      "address": "Calle 10 #50-264, Guayabal",
+      "map": "https://www.google.com/maps/search/?api=1&query=Kia+Distrikia+La+10+Medellin"
+    },
+    {
+      "name": "Kia Distrikia Premium",
+      "brand": "Kia",
+      "city": "Medellín",
+      "address": "Calle 29 #43A-47, El Poblado",
+      "map": "https://www.google.com/maps/search/?api=1&query=Kia+Distrikia+Premium+Medellin"
+    },
+    {
+      "name": "Nissan Dinissan Palacé",
+      "brand": "Nissan",
+      "city": "Medellín",
+      "address": "Carrera 50 #32-59, Palacé",
+      "map": "https://www.google.com/maps/search/?api=1&query=Nissan+Dinissan+Palace+Medellin"
+    },
+    {
+      "name": "Renault Casa Británica",
+      "brand": "Renault",
+      "city": "Envigado",
+      "address": "Carrera 43A #25B Sur-176",
+      "map": "https://www.google.com/maps/search/?api=1&query=Renault+Casa+Britanica+Envigado"
+    },
+    {
+      "name": "Renault Caribe Motor Guayabal",
+      "brand": "Renault",
+      "city": "Medellín",
+      "address": "Calle 14 #51-125, Guayabal",
+      "map": "https://www.google.com/maps/search/?api=1&query=Renault+Caribe+Motor+Guayabal"
+    },
+    {
+      "name": "Suzuki Autozen Las Vegas",
+      "brand": "Suzuki",
+      "city": "Envigado",
+      "address": "Carrera 48 #19 Sur-20",
+      "map": "https://www.google.com/maps/search/?api=1&query=Autozen+Envigado+Suzuki"
+    },
+    {
+      "name": "Suzuki Autoland",
+      "brand": "Suzuki",
+      "city": "Medellín",
+      "address": "Carrera 43A #31-121",
+      "map": "https://www.google.com/maps/search/?api=1&query=Autoland+Suzuki+Medellin"
+    },
+    {
+      "name": "Mazda Massy Motors Poblado",
+      "brand": "Mazda",
+      "city": "Medellín",
+      "address": "Calle 29 #43A-05",
+      "map": "https://www.google.com/maps/search/?api=1&query=Mazda+Massy+Motors+Poblado"
+    },
+    {
+      "name": "Mazda Autoland",
+      "brand": "Mazda",
+      "city": "Rionegro",
+      "address": "Llanogrande, sector Tres Puertas",
+      "map": "https://www.google.com/maps/search/?api=1&query=Autoland+Mazda+Llanogrande"
+    },
+    {
+      "name": "Toyota Tuyomotor Poblado",
+      "brand": "Toyota",
+      "city": "Medellín",
+      "address": "Carrera 48 #14-230",
+      "map": "https://www.google.com/maps/search/?api=1&query=Toyota+Tuyomotor+Poblado"
+    },
+    {
+      "name": "Toyota Autoamérica Sur",
+      "brand": "Toyota",
+      "city": "Envigado",
+      "address": "Carrera 48 #44 Sur-151",
+      "map": "https://www.google.com/maps/search/?api=1&query=Casa+Toyota+Autoamerica+Sur"
+    },
+    {
+      "name": "Chevrolet Ayurá Motor",
+      "brand": "Chevrolet",
+      "city": "Envigado",
+      "address": "Carrera 48 #26 Sur-27",
+      "map": "https://www.google.com/maps/search/?api=1&query=Chevrolet+Ayura+Motor+Envigado"
+    },
+    {
+      "name": "Chevrolet Autolarte Sur",
+      "brand": "Chevrolet",
+      "city": "Itagüí",
+      "address": "Carrera 42 #85-05, San Fernando",
+      "map": "https://www.google.com/maps/search/?api=1&query=Autolarte+Sur+Itagui"
+    },
+    {
+      "name": "Volkswagen Automotora Las Vegas",
+      "brand": "Volkswagen",
+      "city": "Medellín",
+      "address": "Diagonal 47A #16A Sur-59",
+      "map": "https://www.google.com/maps/search/?api=1&query=Volkswagen+Automotora+Las+Vegas"
+    },
+    {
+      "name": "Geely — red autorizada (sede por confirmar)",
+      "brand": "Geely",
+      "city": "Valle de Aburrá",
+      "address": "Confirmar punto de venta autorizado en Geely Colombia",
+      "map": "https://geely.com.co/contactanos/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Tesla — condiciones financiación 0 %",
+      "url": "https://www.tesla.com/es_co/modely/design?financeModalTab=finance_options&modal=finance",
+      "brands": [
+        "Tesla"
+      ]
+    },
+    {
+      "name": "BYD / Moevo — concesionarios",
+      "url": "https://moevo.co/ubicanos/",
+      "brands": [
+        "BYD"
+      ]
+    },
+    {
+      "name": "BYD — comunicación publicada en El Colombiano",
+      "url": "https://www.elcolombiano.com/negocios/byd-y-tesla-bajan-tasas-de-interes-en-que-carros-HN42830676",
+      "brands": [
+        "BYD"
+      ]
+    },
+    {
+      "name": "Kia — legales octubre 2026",
+      "url": "https://kia.com.co/noticias/legales-campanas-octubre-2026",
+      "brands": [
+        "Kia"
+      ]
+    },
+    {
+      "name": "Geely — términos octubre 2026",
+      "url": "https://geely.com.co/terminos-y-condiciones/",
+      "brands": [
+        "Geely"
+      ]
+    },
+    {
+      "name": "Renault — legales",
+      "url": "https://www.renault.com.co/legales.html",
+      "brands": [
+        "Renault"
+      ]
+    },
+    {
+      "name": "Nissan — bonos octubre",
+      "url": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html",
+      "brands": [
+        "Nissan"
+      ]
+    },
+    {
+      "name": "Suzuki — términos de financiación",
+      "url": "https://www.suzukiautos.com.co/info/terminos-y-condiciones",
+      "brands": [
+        "Suzuki"
+      ]
+    },
+    {
+      "name": "Chevrolet — ofertas y oportunidades",
+      "url": "https://www.chevrolet.com.co/ofertas-oportunidades",
+      "brands": [
+        "Chevrolet"
+      ]
+    },
+    {
+      "name": "Fasecolda vía Autocosmos — Kicks 2020",
+      "url": "https://www.autocosmos.com.co/guiadeprecios/nissan/kicks/2020",
+      "brands": [
+        "Nissan"
+      ]
+    }
+  ]
+}
