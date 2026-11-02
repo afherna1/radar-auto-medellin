@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "fecha": "2026-11-02T16:40:30-05:00",
+    "eventos": [
+      {
+        "tipo": "modificada",
+        "modelo": "Nissan VIGENCIA: 2 DE OCTUBRE DE 2026 AL 31 DE OCTUBRE DE 2026",
+        "fuente": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html"
+      }
+    ]
+  }
+]
