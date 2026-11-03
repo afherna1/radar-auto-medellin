@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T16:40:30-05:00",
+  "checked_at": "2026-11-02T22:27:19-05:00",
   "items": [
     {
       "name": "Kia — índice mensual de campañas",
@@ -33,7 +33,7 @@
       "name": "Renault — legales oficiales",
       "url": "https://www.renault.com.co/legales.html",
       "ok": false,
-      "message": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.renault.com.co/legales.html",
+      "message": "ValueError: HTML demasiado grande",
       "offers_found": 0
     },
     {
@@ -100,13 +100,7 @@
       "offers_found": 0
     }
   ],
-  "alerts": [
-    {
-      "tipo": "modificada",
-      "modelo": "Nissan VIGENCIA: 2 DE OCTUBRE DE 2026 AL 31 DE OCTUBRE DE 2026",
-      "fuente": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html"
-    }
-  ],
+  "alerts": [],
   "offers_detected": 12,
   "offers_catalogued": 13,
   "errors": 11,
