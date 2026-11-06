@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T14:52:30-05:00",
+  "checked_at": "2026-11-05T21:18:52-05:00",
   "items": [
     {
       "name": "Kia — índice mensual de campañas",
@@ -26,14 +26,14 @@
       "name": "Nissan — beneficios nacionales",
       "url": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-noviembre-2026.html",
       "ok": false,
-      "message": "ValueError: Página accesible; extractor sin campañas identificables",
+      "message": "HTTPError: 404 Client Error: Not Found for url: https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-noviembre-2026.html",
       "offers_found": 0
     },
     {
       "name": "Renault — legales oficiales",
       "url": "https://www.renault.com.co/legales.html",
       "ok": false,
-      "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.renault.com.co/legales.html",
+      "message": "ValueError: HTML demasiado grande",
       "offers_found": 0
     },
     {
@@ -61,7 +61,7 @@
       "name": "Kia Armotor — campañas",
       "url": "https://armotorkia.com/noticias/legales-campanas-noviembre-2026",
       "ok": false,
-      "message": "HTTPError: 404 Client Error: Not Found for url: https://armotorkia.com/noticias/legales-campanas-noviembre-2026",
+      "message": "ValueError: Página accesible; extractor sin campañas identificables",
       "offers_found": 0
     },
     {
