@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T21:18:52-05:00",
+  "checked_at": "2026-11-06T14:17:00-05:00",
   "items": [
     {
       "name": "Kia — índice mensual de campañas",
@@ -26,7 +26,7 @@
       "name": "Nissan — beneficios nacionales",
       "url": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-noviembre-2026.html",
       "ok": false,
-      "message": "HTTPError: 404 Client Error: Not Found for url: https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-noviembre-2026.html",
+      "message": "ValueError: Página accesible; extractor sin campañas identificables",
       "offers_found": 0
     },
     {
