@@ -1,4 +1,4 @@
-# Radar automático — 2026-11-07T12:43:20-05:00
+# Radar automático — 2026-11-07T20:20:37-05:00
 
 Fuentes consultadas: 14; ofertas detectadas: 12; errores: 11.
 
