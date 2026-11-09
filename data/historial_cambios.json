@@ -8,5 +8,20 @@
         "fuente": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html"
       }
     ]
+  },
+  {
+    "fecha": "2026-11-09T17:15:23-05:00",
+    "eventos": [
+      {
+        "tipo": "nueva",
+        "modelo": "Nissan VIGENCIA: 4 DE NOVIEMBRE DE 2026 AL 30 DE NOVIEMBRE DE 2026",
+        "fuente": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-noviembre-2026.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Nissan VIGENCIA: 2 DE OCTUBRE DE 2026 AL 31 DE OCTUBRE DE 2026",
+        "fuente": "https://www.nissan.com.co/terminos-y-condiciones/bonos-y-beneficios-octubre-2026.html"
+      }
+    ]
   }
 ]
