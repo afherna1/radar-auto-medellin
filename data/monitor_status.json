@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T14:39:43-05:00",
+  "checked_at": "2026-11-10T20:53:08-05:00",
   "items": [
     {
       "name": "Kia — índice mensual de campañas",
@@ -33,7 +33,7 @@
       "name": "Renault — legales oficiales",
       "url": "https://www.renault.com.co/legales.html",
       "ok": false,
-      "message": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.renault.com.co/legales.html",
+      "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.renault.com.co/legales.html",
       "offers_found": 0
     },
     {
@@ -100,53 +100,7 @@
       "offers_found": 0
     }
   ],
-  "alerts": [
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Sonic 2027",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Captiva EV 2026",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Captiva PHEV 2026",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Spark EUV 2026",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Onix 2027",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Tracker 2027",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Spark EUV 2026",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Captiva EV 2026",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    },
-    {
-      "tipo": "nueva",
-      "modelo": "Chevrolet Captiva PHEV 2026",
-      "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
-    }
-  ],
+  "alerts": [],
   "offers_detected": 22,
   "offers_catalogued": 23,
   "errors": 9,
