@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T20:53:08-05:00",
+  "checked_at": "2026-11-11T14:31:38-05:00",
   "items": [
     {
       "name": "Kia — índice mensual de campañas",
@@ -33,7 +33,7 @@
       "name": "Renault — legales oficiales",
       "url": "https://www.renault.com.co/legales.html",
       "ok": false,
-      "message": "HTTPError: 403 Client Error: Forbidden for url: https://www.renault.com.co/legales.html",
+      "message": "ValueError: HTML demasiado grande",
       "offers_found": 0
     },
     {
