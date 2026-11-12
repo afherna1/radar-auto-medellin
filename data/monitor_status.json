@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T14:31:38-05:00",
+  "checked_at": "2026-11-11T21:53:24-05:00",
   "items": [
     {
       "name": "Kia — índice mensual de campañas",
@@ -47,7 +47,7 @@
       "name": "Suzuki — términos comerciales",
       "url": "https://www.suzukiautos.com.co/info/terminos-y-condiciones",
       "ok": false,
-      "message": "HTTPError: 400 Client Error: Bad Request for url: https://www.suzukiautos.com.co/info/terminos-y-condiciones",
+      "message": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "offers_found": 0
     },
     {
