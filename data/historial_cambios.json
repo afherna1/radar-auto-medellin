@@ -73,5 +73,55 @@
         "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
       }
     ]
+  },
+  {
+    "fecha": "2026-11-12T14:50:38-05:00",
+    "eventos": [
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Captiva EV 2026",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Captiva EV 2026",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Captiva PHEV 2026",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Captiva PHEV 2026",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Onix 2027",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Sonic 2027",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Spark EUV 2026",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Spark EUV 2026",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      },
+      {
+        "tipo": "modificada",
+        "modelo": "Chevrolet Tracker 2027",
+        "fuente": "https://www.gmfinancial.com.co/es-co/inicio/promociones.html"
+      }
+    ]
   }
 ]
