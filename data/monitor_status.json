@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T17:45:10-05:00",
+  "checked_at": "2026-11-14T07:51:27-05:00",
   "items": [
     {
       "name": "Kia — índice mensual de campañas",
@@ -47,7 +47,7 @@
       "name": "Suzuki — términos comerciales",
       "url": "https://www.suzukiautos.com.co/info/terminos-y-condiciones",
       "ok": false,
-      "message": "ConnectionError: HTTPSConnectionPool(host='www.suzukiautos.com.co', port=443): Max retries exceeded with url: /info/terminos-y-condiciones (Caused by NameResolutionErr",
+      "message": "HTTPError: 400 Client Error: Bad Request for url: https://www.suzukiautos.com.co/info/terminos-y-condiciones",
       "offers_found": 0
     },
     {
